@@ -206,6 +206,19 @@ width: 400%;
     -webkit-animation-iteration-count: infinite; 
     -webkit-animation-direction: alternate-reverse;
     }
+    .icono{
+        position: fixed;
+        display: grid;
+        padding: 15px;
+        left: 230px;
+        
+    }
+    
+    .icono #icon:hover{
+        cursor: pointer;
+        padding: 30;
+        border-radius: 10px;
+        background-color: coral;
     .footer > .imagenes li{
         width: 100%;
         list-style: none;
