@@ -244,11 +244,11 @@
         padding: 4px;
         background: rgba(0, 0, 0, 0);
         cursor: pointer;
-        border-radius: 10px;
+        border-radius: 15px;
     }
     .llamadas a:hover img{
         background-color: rgba(0, 0, 0, 0.10);
-        border-radius: 10px;
+        border-radius: 15px;
     }
      .llamadas a{
          margin-top: 4px;
