@@ -66,6 +66,7 @@
          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
          padding: 10px;
      }
+
     .container > .relate-post{
         background: #005883;
         color: #fff;
@@ -160,41 +161,47 @@
         text-align: left;
     }
     
-    ul, ol {
-        list-style: none;
-        
-    }
-    .nav li a {
-     background-color: #F0B429;
-     color: #333333;
-     text-decoration: none;
-     padding: 10px 15px;
-     display: block; 
-     
-    }
-    .nav li a:hover{
-        background-color: #005883;
-        border-radius: 15px;
-        color: #fff;
-    }
-    .nav > li {
-        float: left;
-    }
-    .nav li ul {
-        display: none;
-        position: absolute;
-        min-width: 140px;
-    }
-    .nav li:hover > ul{
-        display: block;
-    }
-    .nav li ul li {
-        position: relative;
-    }
-    .nav li ul li ul {
-        right: -140px;
-        top: 0px;
-    }
+/*menu pagina*/
+#header{
+
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: left;
+}
+
+ul, ol {
+    list-style: none;
+}
+.nav li a {
+ background-color: #F0B429;
+ color: #333333;
+ text-decoration: none;
+ padding: 5px 5px;
+ display: block;  
+}
+.nav li a:hover{
+    background-color: #005883;
+    border-radius: 15px;
+    color: #fff;
+}
+.nav > li {
+    float: left;
+}
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+.nav li ul li {
+    position: relative;
+}
+.nav li ul li ul {
+    right: -140px;
+    top: 0px;
+}
     body{
         background-color:#fff;
     }
@@ -230,29 +237,34 @@
         color: black;
     }
 
+/* menu redes*/
 
-    .llamadas{
-        position: fixed;
-        top: 20px;
-        left: 170px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .llamadas img{
-        width: 100px;
-        padding: 4px;
-        background: rgba(0, 0, 0, 0);
-        cursor: pointer;
-        border-radius: 15px;
-    }
-    .llamadas a:hover img{
-        background-color: rgba(0, 0, 0, 0.10);
-        border-radius: 15px;
-    }
-     .llamadas a{
-         margin-top: 4px;
-     }
+.llamadas{
+    position: fixed;
+    top: 20px;
+    left: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.llamadas img{
+    width: 100px;
+    height: 50px;
+    padding: 1px;
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    border-radius: 15px;
+}
+.llamadas a:hover img{
+    width: 100;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+}
+ .llamadas a{
+     margin-top: 4px;
+ }
+
     .ani h3{
         left: 0px;
         position: relative;
